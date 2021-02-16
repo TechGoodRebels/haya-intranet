@@ -1,0 +1,8 @@
+RewriteEngine On
+
+### Deny from all
+
+Deny from all
+
+</Files>
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+cd ~/Development/haya-intranet/misc/database
+/Applications/MAMP/Library/bin/mysqldump -uroot -proot haya_intranet_dev > haya_intranet_dev.sql
+cd ../..
+git add misc/database/haya_intranet_dev.sql

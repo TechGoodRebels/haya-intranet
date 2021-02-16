@@ -1,0 +1,1209 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 12:00:17
+* VERSION: 3.8.5.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.22                                |7.4.12
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2021-02-15 09:54:12
+WP VERSION__________: 5.6.1
+DUP VERSION_________: 3.8.5.1
+DB__________________: 8.0.17
+DB TABLES___________: 110
+DB ROWS_____________: 294983
+DB FILE SIZE________: 170344448
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+DOC ROOT 755________: true
+LOG FILE 644________: false
+REQUEST URL_________: "http://dev.miespacio.haya.es/dup-installer/main.installer.php"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/20210215_miespaciohaya_4e930fd2eae5194c1668_20210215095412_archive.daf"
+SIZE________________: 2.27GB
+
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+
+-------------------------
+AJAX ACTION dawn
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:01:17
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+CLIENT KICKOFF______: true
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+	DUP ARCHIVE EXTRACTION DONE
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 12:01:21 - RUNTIME: 3.5288 sec.
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION dbtest
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 12:03:09
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.32 -- Build Server: 8.0.17
+FILE SIZE:	dup-database__4e930fd-15095412.sql (84.91MB) - installer-data.sql (0B)
+TIMEOUT:	5000
+MAXPACK:	134217728
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+NEW SQL FILE:	[/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/dup-installer/dup-installer-data__4e930fd-15095412.sql]
+COLLATE FB:	Off
+DB CHUNKING:	enabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+
+NOTICE: This servers version [5.7.32] is less than the build version [8.0.17].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 35141619
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 73165476
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 83119076
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	0
+
+TABLES ROWS
+
+TABLE "cm_ahm_assets"___________________________________[ROWS:     0]
+TABLE "cm_ahm_download_stats"___________________________[ROWS:   287]
+TABLE "cm_ahm_emails"___________________________________[ROWS:     0]
+TABLE "cm_bp_activity"__________________________________[ROWS:     1]
+TABLE "cm_bp_activity_meta"_____________________________[ROWS:     0]
+TABLE "cm_bp_groups"____________________________________[ROWS:     0]
+TABLE "cm_bp_groups_groupmeta"__________________________[ROWS:     0]
+TABLE "cm_bp_groups_members"____________________________[ROWS:     0]
+TABLE "cm_bp_invitations"_______________________________[ROWS:     0]
+TABLE "cm_bp_messages_messages"_________________________[ROWS:     0]
+TABLE "cm_bp_messages_meta"_____________________________[ROWS:     0]
+TABLE "cm_bp_messages_notices"__________________________[ROWS:     0]
+TABLE "cm_bp_messages_recipients"_______________________[ROWS:     0]
+TABLE "cm_bp_notifications"_____________________________[ROWS:     0]
+TABLE "cm_bp_notifications_meta"________________________[ROWS:     0]
+TABLE "cm_bp_xprofile_data"_____________________________[ROWS:     0]
+TABLE "cm_bp_xprofile_fields"___________________________[ROWS:     1]
+TABLE "cm_bp_xprofile_groups"___________________________[ROWS:     1]
+TABLE "cm_bp_xprofile_meta"_____________________________[ROWS:     1]
+TABLE "cm_commentmeta"__________________________________[ROWS:     0]
+TABLE "cm_comments"_____________________________________[ROWS:     0]
+TABLE "cm_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "cm_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "cm_frmt_form_entry"______________________________[ROWS:     0]
+TABLE "cm_frmt_form_entry_meta"_________________________[ROWS:     0]
+TABLE "cm_frmt_form_views"______________________________[ROWS:   195]
+TABLE "cm_links"________________________________________[ROWS:     0]
+TABLE "cm_mailpoet_custom_fields"_______________________[ROWS:     0]
+TABLE "cm_mailpoet_dynamic_segment_filters"_____________[ROWS:     0]
+TABLE "cm_mailpoet_feature_flags"_______________________[ROWS:     0]
+TABLE "cm_mailpoet_forms"_______________________________[ROWS:     1]
+TABLE "cm_mailpoet_log"_________________________________[ROWS:     0]
+TABLE "cm_mailpoet_mapping_to_external_entities"________[ROWS:     0]
+TABLE "cm_mailpoet_newsletter_links"____________________[ROWS:     0]
+TABLE "cm_mailpoet_newsletter_option"___________________[ROWS:     6]
+TABLE "cm_mailpoet_newsletter_option_fields"____________[ROWS:    20]
+TABLE "cm_mailpoet_newsletter_posts"____________________[ROWS:     0]
+TABLE "cm_mailpoet_newsletter_segment"__________________[ROWS:     0]
+TABLE "cm_mailpoet_newsletter_templates"________________[ROWS:    74]
+TABLE "cm_mailpoet_newsletters"_________________________[ROWS:     2]
+TABLE "cm_mailpoet_scheduled_task_subscribers"__________[ROWS:     0]
+TABLE "cm_mailpoet_scheduled_tasks"_____________________[ROWS:    31]
+TABLE "cm_mailpoet_segments"____________________________[ROWS:     3]
+TABLE "cm_mailpoet_sending_queues"______________________[ROWS:     0]
+TABLE "cm_mailpoet_settings"____________________________[ROWS:    19]
+TABLE "cm_mailpoet_statistics_clicks"___________________[ROWS:     0]
+TABLE "cm_mailpoet_statistics_forms"____________________[ROWS:     0]
+TABLE "cm_mailpoet_statistics_newsletters"______________[ROWS:     0]
+TABLE "cm_mailpoet_statistics_opens"____________________[ROWS:     0]
+TABLE "cm_mailpoet_statistics_unsubscribes"_____________[ROWS:     0]
+TABLE "cm_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0]
+TABLE "cm_mailpoet_stats_notifications"_________________[ROWS:     0]
+TABLE "cm_mailpoet_subscriber_custom_field"_____________[ROWS:     0]
+TABLE "cm_mailpoet_subscriber_ips"______________________[ROWS:     0]
+TABLE "cm_mailpoet_subscriber_segment"__________________[ROWS:     8]
+TABLE "cm_mailpoet_subscribers"_________________________[ROWS:     8]
+TABLE "cm_mailpoet_user_flags"__________________________[ROWS:     1]
+TABLE "cm_options"______________________________________[ROWS:  1317]
+TABLE "cm_postmeta"_____________________________________[ROWS: 23805]
+TABLE "cm_posts"________________________________________[ROWS:  4638]
+TABLE "cm_promag_email_templates"_______________________[ROWS:    11]
+TABLE "cm_promag_fields"________________________________[ROWS:     8]
+TABLE "cm_promag_friends"_______________________________[ROWS:     0]
+TABLE "cm_promag_group_requests"________________________[ROWS:     0]
+TABLE "cm_promag_groups"________________________________[ROWS:     1]
+TABLE "cm_promag_msg_conversation"______________________[ROWS:     0]
+TABLE "cm_promag_msg_threads"___________________________[ROWS:     0]
+TABLE "cm_promag_notification"__________________________[ROWS:     0]
+TABLE "cm_promag_paypal_log"____________________________[ROWS:     0]
+TABLE "cm_promag_sections"______________________________[ROWS:     1]
+TABLE "cm_rm_custom_status"_____________________________[ROWS:     0]
+TABLE "cm_rm_fields"____________________________________[ROWS:    13]
+TABLE "cm_rm_forms"_____________________________________[ROWS:     2]
+TABLE "cm_rm_front_users"_______________________________[ROWS:     0]
+TABLE "cm_rm_login"_____________________________________[ROWS:    10]
+TABLE "cm_rm_login_log"_________________________________[ROWS:     0]
+TABLE "cm_rm_notes"_____________________________________[ROWS:     0]
+TABLE "cm_rm_paypal_fields"_____________________________[ROWS:     0]
+TABLE "cm_rm_paypal_logs"_______________________________[ROWS:     0]
+TABLE "cm_rm_resources"_________________________________[ROWS:     0]
+TABLE "cm_rm_rules"_____________________________________[ROWS:     0]
+TABLE "cm_rm_sent_mails"________________________________[ROWS:     0]
+TABLE "cm_rm_sessions"__________________________________[ROWS:     0]
+TABLE "cm_rm_stats"_____________________________________[ROWS:     0]
+TABLE "cm_rm_submission_fields"_________________________[ROWS:     0]
+TABLE "cm_rm_submissions"_______________________________[ROWS:     0]
+TABLE "cm_rm_task_exe_log"______________________________[ROWS:     0]
+TABLE "cm_rm_tasks"_____________________________________[ROWS:     0]
+TABLE "cm_signups"______________________________________[ROWS:     0]
+TABLE "cm_smush_dir_images"_____________________________[ROWS:     0]
+TABLE "cm_term_relationships"___________________________[ROWS:   355]
+TABLE "cm_term_taxonomy"________________________________[ROWS:    76]
+TABLE "cm_termmeta"_____________________________________[ROWS:    95]
+TABLE "cm_terms"________________________________________[ROWS:    76]
+TABLE "cm_um_metadata"__________________________________[ROWS:     0]
+TABLE "cm_um_notifications"_____________________________[ROWS: 13209]
+TABLE "cm_usermeta"_____________________________________[ROWS: 22839]
+TABLE "cm_users"________________________________________[ROWS:  1013]
+TABLE "cm_w3tc_cdn_pathmap"_____________________________[ROWS:     0]
+TABLE "cm_w3tc_cdn_queue"_______________________________[ROWS:  4666]
+TABLE "cm_wpfm_backup"__________________________________[ROWS:     0]
+TABLE "cm_wsal_metadata"________________________________[ROWS:210588]
+TABLE "cm_wsal_occurrences"_____________________________[ROWS: 29991]
+TABLE "cm_wsal_options"_________________________________[ROWS:     0]
+TABLE "cm_yoast_indexable"______________________________[ROWS:  3489]
+TABLE "cm_yoast_indexable_hierarchy"____________________[ROWS:   470]
+TABLE "cm_yoast_migrations"_____________________________[ROWS:    21]
+TABLE "cm_yoast_primary_term"___________________________[ROWS:    12]
+TABLE "cm_yoast_seo_links"______________________________[ROWS:  3012]
+TABLE "cm_yoast_seo_meta"_______________________________[ROWS:   334]
+
+DATABASE CACHE/TRANSITIENT [ROWS:   908]
+
+INSERT DATA RUNTIME: 0.3831 sec.
+STEP-2 COMPLETE @ 12:03:44 - RUNTIME: 0.5330 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:06:03
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Mi espacio Haya"
+url_old_______________: "https://miespacio.haya.es"
+url_new_______________: "http://dev.miespacio.haya.es"
+siteurl_______________: "http://dev.miespacio.haya.es"
+path_new______________: "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+path_old______________: "/var/www/html/miespacio/"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: "1"
+postguid______________: false
+fullsearch____________: false
+cross_search__________: false
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: true
+auth_keys_and_salts___: false
+cache_wp______________: true
+cache_path____________: false
+wp_debug______________: false
+wp_debug_log__________: false
+wp_debug_display______: false
+script_debug__________: false
+savequeries___________: false
+wp_memory_limit_______: "512M"
+wp_max_memory_limit___: ""
+disallow_file_edit____: true
+cookie_domain_________: ""
+autosave_interval_____: 0
+wp_auto_update_core___: ""
+wp_post_revisions_____: 1
+action_mu_mode________: -1
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "cm_ahm_assets"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_ahm_download_stats"___________________________[ROWS:   287][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_ahm_emails"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_activity"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_bp_activity_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_groups"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_groups_groupmeta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_groups_members"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_invitations"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_messages_messages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_messages_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_messages_notices"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_messages_recipients"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_notifications"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_notifications_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_xprofile_data"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_bp_xprofile_fields"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_bp_xprofile_groups"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_bp_xprofile_meta"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_frmt_form_entry"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_frmt_form_entry_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_frmt_form_views"______________________________[ROWS:   195][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_custom_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_dynamic_segment_filters"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_feature_flags"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_forms"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_mapping_to_external_entities"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_newsletter_links"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_newsletter_option"___________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_newsletter_option_fields"____________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_newsletter_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_newsletter_segment"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_newsletter_templates"________________[ROWS:    74][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_newsletters"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_scheduled_task_subscribers"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_scheduled_tasks"_____________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_segments"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_sending_queues"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_settings"____________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_statistics_clicks"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_statistics_forms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_statistics_newsletters"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_statistics_opens"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_statistics_unsubscribes"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_stats_notifications"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_subscriber_custom_field"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_subscriber_ips"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_mailpoet_subscriber_segment"__________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_subscribers"_________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_mailpoet_user_flags"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_options"______________________________________[ROWS:  1317][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_postmeta"_____________________________________[ROWS: 23805][PG:   7][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_posts"________________________________________[ROWS:  4638][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_promag_email_templates"_______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_promag_fields"________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_promag_friends"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_promag_group_requests"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_promag_groups"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_promag_msg_conversation"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_promag_msg_threads"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_promag_notification"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_promag_paypal_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_promag_sections"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_rm_custom_status"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_fields"____________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_rm_forms"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_rm_front_users"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_login"_____________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_rm_login_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_notes"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_paypal_fields"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_paypal_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_resources"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_rules"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_sent_mails"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_sessions"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_stats"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_submission_fields"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_submissions"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_task_exe_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_rm_tasks"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_signups"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_term_relationships"___________________________[ROWS:   355][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_term_taxonomy"________________________________[ROWS:    76][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_termmeta"_____________________________________[ROWS:    95][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_terms"________________________________________[ROWS:    76][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_um_metadata"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_um_notifications"_____________________________[ROWS: 13209][PG:   4][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_usermeta"_____________________________________[ROWS: 22839][PG:   7][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_users"________________________________________[ROWS:  1013][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_w3tc_cdn_pathmap"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_w3tc_cdn_queue"_______________________________[ROWS:  4666][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_wsal_metadata"________________________________[ROWS:210588][PG:  61][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_wsal_occurrences"_____________________________[ROWS: 29991][PG:   9][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_wsal_options"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cm_yoast_indexable"______________________________[ROWS:  3489][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_yoast_indexable_hierarchy"____________________[ROWS:   470][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_yoast_migrations"_____________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_yoast_primary_term"___________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_yoast_seo_links"______________________________[ROWS:  3012][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+
+EVALUATE TABLE: "cm_yoast_seo_meta"_______________________________[ROWS:   334][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/miespacio/" ========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es/"
+	SEARCH  2:"\/var\/www\/html\/miespacio\/" ===================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es\/"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fmiespacio%2F" ==============> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es%2F"
+	SEARCH  4:"\var\www\html\miespacio" =========================> "/Users/pablo/Development/haya-intranet/dev.miespacio.haya.es"
+	SEARCH  5:"\\var\\www\\html\\miespacio" =====================> "\/Users\/pablo\/Development\/haya-intranet\/dev.miespacio.haya.es"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cmiespacio" =================> "%2FUsers%2Fpablo%2FDevelopment%2Fhaya-intranet%2Fdev.miespacio.haya.es"
+	SEARCH  7:"//miespacio.haya.es" =============================> "//dev.miespacio.haya.es"
+	SEARCH  8:"\/\/miespacio.haya.es" ===========================> "\/\/dev.miespacio.haya.es"
+	SEARCH  9:"%2F%2Fmiespacio.haya.es" =========================> "%2F%2Fdev.miespacio.haya.es"
+	SEARCH 10:"https://dev.miespacio.haya.es" ===================> "http://dev.miespacio.haya.es"
+	SEARCH 11:"https:\/\/dev.miespacio.haya.es" =================> "http:\/\/dev.miespacio.haya.es"
+	SEARCH 12:"https%3A%2F%2Fdev.miespacio.haya.es" =============> "http%3A%2F%2Fdev.miespacio.haya.es"
+--------------------------------------
+SCANNED:	Tables:110 	|	 Rows:320716 	|	 Cells:1682954 
+UPDATED:	Tables:13 	|	 Rows:25413 	|	 Cells:38422 
+ERRORS:		0 
+RUNTIME:	31.677600 sec
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""haya_intranet_dev""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE FORCE_SSL_ADMIN true
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	UPDATE WP_POST_REVISIONS "1"
+	UPDATE WP_MEMORY_LIMIT "512M"
+	REMOVE WP_MAX_MEMORY_LIMIT
+	UPDATE DISALLOW_FILE_EDIT true
+	REMOVE WP_AUTO_UPDATE_CORE
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:06:34 - RUNTIME: 31.7444 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
